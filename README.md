@@ -23,6 +23,7 @@ $ cd portalng/portal
 $ npm install
 $ node app.js
 ```
+```
 (new window)
 $ cd ../applet1
 $ npm install
