@@ -14,7 +14,6 @@ Sample AngularJS application demonstrating a portal application using a 'federat
 ## Implementation Notes
 - I have used express as the backend for the portal but this is not a requirement, any backend that can serve the layout html fragment and the restful API would work.
 - I have implemented CORS on the server and the client to allow the applets to communicate with the portal accross different domains.
-- Angular version is 1.2.16 but any 1.2.x version should be ok.  1.1.x versions will **not** work because the transclude function is not available on the link function signature in 1.1.x
 - I have used the angular-ui-router library in the applet to demonstrate that the portal approach and routing within an applet are compatible however this is not a requirement for the portal to work.  Standard AngularJS routing or no routing at all will work equally well with this approach.
 
 ## Running the sample
