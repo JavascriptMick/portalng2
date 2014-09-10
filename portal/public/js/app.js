@@ -6,5 +6,5 @@ angular.module('portalng', [
   'portalng.controllers',
   'portalng.filters',
   'portalng.services',
-  'portalng.directives'
+  'portalng.wrapper'
 ]);

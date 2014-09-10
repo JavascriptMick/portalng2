@@ -37,9 +37,6 @@ app.use(app.router);
 // Portal Index page
 app.get('/', pageRoutes.index);
 
-// Layout 'wrapper' template for the directive to load
-app.get('/layout', cors(), pageRoutes.layout);
-
 // JSON API for serving the available applets
 app.get('/api/1.0/applet', cors(), applet.get);
 
