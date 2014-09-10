@@ -22,8 +22,16 @@ Clone repo then..
 $ cd portalng/portal
 $ npm install
 $ node app.js
+```
+(new window)
 $ cd ../applet1
 $ npm install
 $ node app.js
 ```
 then Navigate to http://localhost:3000
+
+## Compiling the portal distributable
+```
+cd components
+grunt
+```
