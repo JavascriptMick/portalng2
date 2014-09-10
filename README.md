@@ -6,7 +6,7 @@ Sample AngularJS application demonstrating a portal application using a 'federat
 ## Design Goals
 - Portal and applets should be independent web applications.  
 - Applets should still work and present their 'core' interface if the portal is down.
-~~- Changes to portal layout should update automatically accross all applets without a deployment or restart.~~
+- ~~Changes to portal layout should update automatically accross all applets without a deployment or restart.~~
 - Portal layout will be encapsulated in the portal directive
 - Applets will be responsible for updating to the latest version should the portal layout change
 - Portal API should be versioned to allow backward compatability with older applets.
