@@ -25,7 +25,7 @@ $ node app.js
 ```
 ```
 (new window)
-$ cd ../applet1
+$ cd portalng/applet1
 $ npm install
 $ node app.js
 ```
